@@ -9,4 +9,8 @@ exports.index = function(req, res){
 
 exports.images = function(req, res){
   res.render('imageList', {});
+};
+
+exports.diet = function(req, res) {
+  res.render('diet', {});
 }
