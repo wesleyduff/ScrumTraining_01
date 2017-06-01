@@ -37,6 +37,19 @@ nav li:after {
     min-height:80vh;
     padding-bottom:15px;
 }
+
+p:first-letter {
+    font-family: fantasy;
+    font-size:30px;
+    line-height: 1;
+}
+h1 {
+    font-size:3em;
+}
+h1, h2 {
+    font-family: fantasy;
+}
+
 .imageGallery li {
     border:1px solid black;
     padding:5px;
@@ -77,4 +90,17 @@ a {
     color:white;
     padding:10px;
     margin-bottom:15px;
+}
+
+.wrapper .diet li {
+    list-style: circle;
+    display: block;
+    line-height: 2;
+}
+
+article {
+    margin-bottom:25px;
+    padding:15px;
+    background-color:#ddd;
+    box-shadow: 10px 10px 17px #888888;
 }
