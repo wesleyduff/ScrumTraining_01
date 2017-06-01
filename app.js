@@ -6,6 +6,7 @@
 var express = require('express');
 var db = require('./model/db');
 var routes = require('./routes');
+var diet = require('./routes/diet');
 var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
@@ -31,7 +32,9 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
+app.get('/home', routes.index);
+app.get('/diet', diet.index);
+app.get('/imageList', routes.images)
 //// USER ROUTES
 app.get('/user', user.index);          // Current user profile
 app.get('/user/new', user.create);     // Create new user form

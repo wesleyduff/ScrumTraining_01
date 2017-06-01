@@ -1,14 +1,6 @@
 extends layout
 
 block content
-	h1 Church Members
-	.members.col-xs-12
-		ul.col-xs-12
-			li(ng-repeat="iuser in allGenUsers").user.row
-				.col-xs-3
-					a.circular_image
-						img(ng-src="{{iuser.user.picture}}").clipCircle
-				.col-xs-9
-					ul
-						li {{iuser.user.name.first}} {{iuser.user.name.last}}
-						li email : {{iuser.user.email}}
+	h1 Elephant Overview
+	p The largest land mammal on earth, the elephant weighs up to eight tons. The elephant is distinguished by its massive body, large ears and a long trunk, which has many uses ranging from using it as a hand to pick up objects, as a horn to trumpet warnings, an arm raised in greeting to a hose for drinking water or bathing. The two species of elephants—African and Asian—need extensive land to survive. Roaming in herds and consuming hundreds of pounds of plant matter in a single day, both species of elephant require extensive amounts of food, water and space.
+	img(src="/images/images_1.jpg" height="300")
