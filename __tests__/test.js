@@ -22,4 +22,25 @@ describe('Test the root path', () => {
         });
     });
 
+    test('It should response the GET method for anatomy', (done) => {
+        request(app).get('/anatomy').then((response) => {
+            expect(response.statusCode).toBe(200);
+            done();
+        });
+    });
+
+    test('It should response the GET method for behavior', (done) => {
+        request(app).get('/behavior').then((response) => {
+            expect(response.statusCode).toBe(200);
+            done();
+        });
+    });
+
+    test('It should response the GET method for habitat', (done) => {
+        request(app).get('/habitat').then((response) => {
+            expect(response.statusCode).toBe(200);
+            done();
+        });
+    });
+
 });
