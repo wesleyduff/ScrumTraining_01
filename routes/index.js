@@ -22,3 +22,7 @@ exports.anatomy = function(req, res) {
 exports.habitat = function(req, res) {
   res.render('habitat',{});
 }
+
+exports.behavior = function(req, res) {
+  res.render('behavior',{});
+}
