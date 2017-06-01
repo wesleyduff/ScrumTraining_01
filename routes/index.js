@@ -14,3 +14,11 @@ exports.images = function(req, res){
 exports.diet = function(req, res) {
   res.render('diet', {});
 }
+
+exports.anatomy = function(req, res) {
+  res.render('anatomy',{});
+}
+
+exports.habitat = function(req, res) {
+  res.render('habitat',{});
+}

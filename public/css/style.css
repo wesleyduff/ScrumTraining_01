@@ -41,7 +41,7 @@ nav li:after {
     padding:5px;
     display:inline-flex;
     float:left;
-    min-height:180px;
+    min-height:230px;
     width:262px;
     margin-right:15px;
 }
