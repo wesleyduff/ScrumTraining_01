@@ -26,3 +26,12 @@ exports.habitat = function(req, res) {
 exports.behavior = function(req, res) {
   res.render('behavior',{});
 }
+
+exports.mating = function(req, res) {
+  res.render('mating',{});
+}
+
+exports.communication = function(req, res) {
+  res.render('communication',{});
+}
+
