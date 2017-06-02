@@ -11,6 +11,8 @@ html(ng-app="app")
     script(src='/js/bootstrap.min.js' type='text/javascript')
     
     body(ng-controller="MainCtrl")
+        header
+            h1 Fun with Elephants
         nav
             ul
                 li
@@ -33,3 +35,12 @@ html(ng-app="app")
                     a(href="\popculture") Pop Culture
         div(class="container wrapper")
             block content
+        footer
+            nav
+                ul
+                    li
+                        a(href="\home") Home
+                    li
+                        a(href="\about") About
+                    li
+                        a(href="\contact") Contact

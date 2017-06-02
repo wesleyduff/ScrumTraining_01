@@ -39,3 +39,10 @@ exports.popculture = function(req, res) {
   res.render('popculture',{});
 }
 
+exports.contact = function(req, res) {
+  res.render('contact',{});
+}
+
+exports.about = function(req, res) {
+  res.render('about',{});
+}

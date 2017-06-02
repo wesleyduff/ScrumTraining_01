@@ -39,6 +39,8 @@ app.get('/behavior', routes.behavior);
 app.get('/mating', routes.mating);
 app.get('/communication', routes.communication);
 app.get('/popculture', routes.popculture);
+app.get('/about', routes.about);
+app.get('/contact', routes.contact);
 
 //http.createServer(app).listen(app.get('port'), function(){
 //  console.log('Express server listening on port ' + app.get('port'));
