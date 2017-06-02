@@ -35,3 +35,7 @@ exports.communication = function(req, res) {
   res.render('communication',{});
 }
 
+exports.popculture = function(req, res) {
+  res.render('popculture',{});
+}
+

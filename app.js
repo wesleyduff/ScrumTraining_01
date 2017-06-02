@@ -38,6 +38,7 @@ app.get('/habitat', routes.habitat);
 app.get('/behavior', routes.behavior);
 app.get('/mating', routes.mating);
 app.get('/communication', routes.communication);
+app.get('/popculture', routes.popculture);
 
 //http.createServer(app).listen(app.get('port'), function(){
 //  console.log('Express server listening on port ' + app.get('port'));
